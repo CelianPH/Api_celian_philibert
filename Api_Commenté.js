@@ -4,6 +4,14 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 
+/**
+ * cette partie importe les modules requis en utilisant la fonction require de Node.js. Les modules importés sont :
+ * -Express qui est un framework web utilisé pour créer des applications web et des API.
+ * -Cors est un middleware permettant l'activation du partage de ressources entre origines (CORS), autorisant les ressources à être demandées depuis un autre domaine.
+ * -Body-parser est un autre un middleware permettant de parser le corps de la requête dans différents formats et le rendant accessible via req.body.
+ * -Dotenv est un module permettant de charger les variables d'environnement depuis un fichier .env dans l'objet process.env.
+ */
+
 //fichier de route
 const etudiantRoutes = require('./src/routes/etudiantRoutes');
 const intervenantRoutes = require('./src/routes/intervenantRoutes');

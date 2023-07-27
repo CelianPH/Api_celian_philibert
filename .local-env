@@ -1,0 +1,7 @@
+//port
+PORT=3001
+//Database
+DB_HOST='10.1.1.12'
+DB_USER='signuser'
+DB_PASS='pwdsignuser' //signpass
+DB_NAME='signature'
